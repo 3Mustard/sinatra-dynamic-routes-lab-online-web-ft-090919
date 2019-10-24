@@ -7,6 +7,8 @@ class App < Sinatra::Base
     "#{@reverse}"
   end 
   
+  get '/square/:number' do 
+    @squared =  
   
 
 end
